@@ -1,0 +1,63 @@
+@media (min-width: 1200px){
+    .MainBar {
+        margin: 0 auto;
+        height: 50px;
+        width: 87.72%;
+    }
+}
+.MainBar {
+    position: relative;
+    max-width: 1060px;
+    height: 50px;
+}
+.MainBar_nav, MainBar_nav_top{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.MainBar_nav{
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.MainBar_nav_top .MainBar_hamberger {
+    margin-top: -2px;
+    margin-right: 15px;
+}
+
+.MainBar_hamberger img{
+    width: 17px;
+    height: 14px;
+    object-fit: contain;
+}
+MainBar_logo__bGymr{
+    display: block;
+}
+.icon-logo_new{
+
+}
+.icon-logo_new:before {
+    content: "\e992";
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
